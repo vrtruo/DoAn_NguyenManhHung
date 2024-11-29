@@ -1,0 +1,181 @@
+/* Hàng Đầu */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #004ba0;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.dangnhap {
+    display: flex;
+    align-items: center;
+}
+
+.dangnhap a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.ngonngu img {
+    height: 20px;
+    margin-left: 15px;
+}
+
+nav {
+    background-color: #0056b3;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.thanhtimkiem {
+    display: flex;
+    align-items: center;
+}
+
+.thanhtimkiem input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.thanhtimkiem button {
+    background-color: #003b80;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+
+/* Hàng Danh Mục */
+
+
+.danhmuc {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.danhmuc-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.hangdanhmuc {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #d12222;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hangdanhmuc img {
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.hangdanhmuc p {
+    font-size: 1rem;
+    color: #f47c20; /* Orange text color */
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+
+/* Cuối Trang */
+
+.footer {
+    background-color: #003b80;
+    color: #fff;
+    padding: 20px 40px;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+}
+
+.icon a img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.footer-right ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-right ul li a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
